@@ -1,7 +1,5 @@
 # Import a library of functions called 'pygame'
 import pygame
-import math
-
 from car_model import Car2
 from lane_following import CurvedRoad
 from defines import *
