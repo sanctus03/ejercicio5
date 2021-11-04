@@ -6,7 +6,9 @@ from main_functions import *
 pygame.init()
 
 #call main routine
-size = [1300, 600] # Define size of windows
-size[0] = int(input("Ancho pantalla?: "))
-size[1] = int(input("Alto pantalla?: "))
-main2(size)
+ancho= int(input("ancho de la ventana:" )
+alto= int(input("alto de la ventana: ")
+size= (ancho, alto)
+azul= (0, 0, 255)
+titulo= input("título del simulador:")
+main2(size, titulo, azul)
