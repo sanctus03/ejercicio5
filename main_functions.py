@@ -37,6 +37,7 @@ def main2(size, titulo, azul):
         if keys[pygame.K_LEFT]:
             car.turn(-1)
         if keys[pygame.K_RIGHT]:
+            car.turn(1)
         if keys[pygame.K_q]:
             break
 
